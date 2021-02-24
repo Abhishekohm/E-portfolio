@@ -60,6 +60,7 @@ nav div {
 .academics-container h2 {
     text-align: center;
     width: 100%;
+    font-size: 40px;
 }
 
 .academics-box {
@@ -83,5 +84,26 @@ nav div {
 }
 
 i {
-    font-size: 18px !important;
+    font-size: 14px !important;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.skill-logo img {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.logo-container-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-container-2 {
+    display: flex;
+    justify-content: space-around;
 }
