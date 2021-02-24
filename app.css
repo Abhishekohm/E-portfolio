@@ -8,6 +8,35 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav div h3 {
+    margin-right: 20px;
+}
+
+nav {
+    background-color: black;
+    margin-bottom: 20px;
+    width: 98.7vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+nav h2,
+nav h3,
+nav div {
+    display: inline-block;
+}
+
+.intro {
+    width: 100%;
+    padding-top: 100px;
+}
+
 .intro .description {
     width: 100%;
     display: flex;
@@ -28,9 +57,31 @@ body {
     color: white;
 }
 
-.academics-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.academics-container h2 {
+    text-align: center;
     width: 100%;
+}
+
+.academics-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.academics h3 {
+    text-align: center;
+}
+
+.academics {
+    width: 250px;
+    border: 2px solid black;
+    display: inline-block;
+    height: 300px;
+    background-color: cyan;
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+i {
+    font-size: 18px !important;
 }
