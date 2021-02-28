@@ -181,3 +181,40 @@ footer {
     background-color: #343a40;
     text-align: center;
 }
+
+.certificates>div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.certificates a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.certificates a:hover {
+    text-decoration: blue underline;
+    color: rgb(20, 20, 20);
+}
+
+.certificates a:visited {
+    color: black;
+}
+
+.certificates img {
+    height: 300px;
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.certificates h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.certificates>div>div {
+    display: inline-block;
+}
