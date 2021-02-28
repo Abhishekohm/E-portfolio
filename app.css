@@ -236,7 +236,7 @@ footer {
     }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 500px) {
     .logo-container-1,
     .logo-container-2,
     .logo-container-3 {
