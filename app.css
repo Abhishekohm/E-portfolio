@@ -182,7 +182,7 @@ footer {
     text-align: center;
 }
 
-.certificates>div {
+.certifiactes-container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
@@ -217,4 +217,45 @@ footer {
 
 .certificates>div>div {
     display: inline-block;
+}
+
+@media(max-width: 800px) {
+    .academics-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .academics {
+        margin: 10px 0px;
+    }
+    .certifiactes-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px;
+    }
+}
+
+@media(max-width: 300px) {
+    .logo-container-1,
+    .logo-container-2,
+    .logo-container-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .logo-container-1>div,
+    .logo-container-2>div,
+    .logo-container-3>div {
+        margin: 5px 0px;
+    }
+    .intro .description img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .certifiactes-container img {
+        display: none;
+    }
 }
