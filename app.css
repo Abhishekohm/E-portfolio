@@ -21,7 +21,7 @@ nav div h3 {
 nav {
     background-color: black;
     margin-bottom: 20px;
-    width: 98.7vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -48,8 +48,8 @@ nav div {
 }
 
 .intro .description img {
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
 }
 
@@ -82,6 +82,7 @@ nav div {
 
 .academics h3 {
     text-align: center;
+    border-bottom: 2px solid black;
 }
 
 .academics {
@@ -91,7 +92,6 @@ nav div {
     height: 300px;
     background-color: cyan;
     border-radius: 10px;
-    padding: 10px 5px;
     box-sizing: border-box;
 }
 
@@ -219,6 +219,26 @@ footer {
     display: inline-block;
 }
 
+.sideBar-responsive {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    background-color: beige;
+    border: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: -210px;
+}
+
+.icons {
+    display: none;
+    position: fixed;
+}
+
+.sideBar-click {
+    left: 0;
+}
+
 @media(max-width: 800px) {
     .academics-box {
         display: flex;
@@ -233,6 +253,19 @@ footer {
         flex-direction: column;
         align-items: center;
         margin: 10px 0px;
+    }
+    .logo-container-1,
+    .logo-container-2,
+    .logo-container-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .logo-container-1>div,
+    .logo-container-2>div,
+    .logo-container-3>div {
+        margin: 5px 0px;
     }
 }
 
@@ -250,16 +283,26 @@ footer {
     .logo-container-3>div {
         margin: 5px 0px;
     }
-    .intro .description img {
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-    }
     .certifiactes-container img {
         display: none;
     }
-    nav h2,
+    .certifiactes-container a {
+        text-decoration: underline blue;
+    }
     nav h3 {
-        font-size: 10px;
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    .icons {
+        display: inline-block;
+        font-size: 40px !important;
+        color: white;
+        margin: 10px 0px;
+        position: fixed;
+        cursor: pointer;
+        left: 90vw;
     }
 }
