@@ -7,6 +7,14 @@ body {
     min-height: 100vh;
     width: 98.7vw;
     margin: 0;
+    background-color: white;
+}
+
+nav h2 span,
+nav h3 span {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
 }
 
 nav a {
@@ -33,40 +41,71 @@ nav div {
     display: inline-block;
 }
 
-.intro {
+.main {
     width: 100%;
     padding-top: 100px;
 }
 
-.intro .description {
+.main .description {
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-image: url(./images/background1.jpg);
+    background-image: url(./images/background2.jpg);
     background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
-.intro .description img {
+.description p {
+    font-size: 40px;
+    color: white;
+}
+
+.description p:nth-last-of-type(1) {
+    font-size: 30px;
+    color: white;
+}
+
+.description>div {
+    text-align: center;
+}
+
+.main .description img {
     height: 250px;
     width: 250px;
     border-radius: 50%;
 }
 
-.intro .description i {
+.main .description i {
     font-size: 35px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 10px 10px;
     box-sizing: border-box;
 }
 
-.intro .description i:hover {
+.main .description i:hover {
     transform: translateY(-10px);
 }
 
-.intro .description p {
-    font-size: larger;
+.About {
+    background-color: black;
+    text-align: start;
+    height: 200px;
+    margin: 40px 0px;
+}
+
+.About div {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.About div {
+    font-size: 20px;
+    margin-bottom: 10px;
     color: white;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .academics-container h2 {
@@ -124,15 +163,23 @@ nav div {
 }
 
 .achivements ul li {
+    box-sizing: border-box;
     list-style: none;
+    display: block;
     margin: 20px 0px;
     font-size: 20px;
+    padding: 15px;
+    height: 50px;
+}
+
+.achivements ul li:nth-last-of-type(2n) {
+    background-color: slategray;
+    color: white;
 }
 
 .achivements ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    text-align: center;
     padding-left: 0px;
 }
 
@@ -208,11 +255,6 @@ footer {
     width: 400px;
     margin: 0px;
     padding: 0px;
-}
-
-.certificates h2 {
-    text-align: center;
-    font-size: 40px;
 }
 
 .certificates>div>div {

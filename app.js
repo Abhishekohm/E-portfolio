@@ -2,6 +2,8 @@ const nameLink = document.querySelector('#nameLink')
 const icons = document.querySelector(".icons")
 const sidebar = document.querySelector(".sideBar-responsive")
 let isClick = true
+const about = document.querySelector('.About')
+const aboutBtn = document.querySelector('#about-btn')
 
 nameLink.addEventListener('click', () => {
     window.scrollTo({
@@ -24,4 +26,13 @@ icons.addEventListener('click', (evt) => {
         isClick = !isClick;
     }
 
+})
+
+aboutBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 800,
+        left: 0,
+        behavior: "smooth"
+
+    })
 })

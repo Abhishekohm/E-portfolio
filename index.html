@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,12 +22,12 @@
         <i class="fa  fa-align-justify icons"></i>
 
         <h2>
-            <a href="#" id="nameLink">ABHISHEK GUPTA</a>
+            <span id="nameLink">ABHISHEK GUPTA</span>
         </h2>
 
         <div>
-            <h3><a href="#">ABOUT</a></h3>
-            <h3><a href="#">CONTACT</a></h3>
+            <h3><span id="about-btn">ABOUT</span></h3>
+            <h3><a href="./feedback.html">CONTACT</a></h3>
         </div>
     </nav>
 
@@ -37,19 +39,28 @@
         </div>
     </div>
 
-    <main class="intro">
+    <main class="main">
         <section class="description">
-            <img src="./images/profilTemp.jpg" alt="error">
             <div>
-                <a href="https://github.com/Abhishekohm"><i class="fa fa-github"></i></a>
-                <a href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a>
-                <a href="https://www.linkedin.com/in/abhishek-gupta-a165101bb/"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <img src="./images/profilTemp.jpg" alt="error">
+                <p>Abhishek Gupta</p>
+                <p>Student, Developer, Fitness Enthusiast</p>
+                <div>
+                    <a href="https://github.com/Abhishekohm"><i class="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-gupta-a165101bb/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                </div>
             </div>
-            <p>
-                Hi, I am Abhishek Gupta from Mumbai, Maharastra, India. <br> I am a Front end Web Developer, A Student and A Fitness enthusiast.
-            </p>
+        </section>
 
+        <section class="About">
+            <div>
+                Hi, I am Abhishek Gupta from Mumbai, Maharastra, India.
+            </div>
+            <div>
+                I'm a Front end Web Developer, A Student and A Fitness enthusiast. <br> I love coding as well as doing variety of Push ups, learning new things and teaching others.
+            </div>
         </section>
 
         <section class="academics-container">
@@ -89,15 +100,15 @@
         <section class="skills">
             <h2>Skills</h2>
             <div class="logo-container-1">
-                <div class="skill-logo"><img src="images/c-language.png" alt=""></div>
-                <div class="skill-logo"><img src="images/c++-logo.jpg" alt=""></div>
-                <div class="skill-logo"><img src="images/python_logo.jpg" alt=""></div>
+                <div class="skill-logo"><img src="images/c-language.png" alt="error"></div>
+                <div class="skill-logo"><img src="images/c++-logo.jpg" alt="error"></div>
+                <div class="skill-logo"><img src="images/python_logo.jpg" alt="error"></div>
             </div>
             <div class="logo-container-2">
 
-                <div class="skill-logo"><img src="images/HTML-CSS-JS.jpg" alt=""></div>
-                <div class="skill-logo"><img src="images/nodejs_logo.png" alt=""></div>
-                <div class="skill-logo"><img src="images/mongo-logo.png" alt=""></div>
+                <div class="skill-logo"><img src="images/HTML-CSS-JS.jpg" alt="error"></div>
+                <div class="skill-logo"><img src="images/nodejs_logo.png" alt="error"></div>
+                <div class="skill-logo"><img src="images/mongo-logo.png" alt="error"></div>
             </div>
             <div class="logo-container-3">
                 <div class="skill-logo"><img src="https://cdn.freebiesupply.com/logos/large/2x/git-icon-logo-png-transparent.png" alt="error"></div>
@@ -145,11 +156,17 @@
 
             <div class="certifiactes-container">
                 <div>
-                    <a href="./images/C++certificate.jpg">Beginning C++ Programming<br><img src="./images/C++certificate.jpg" alt="#"></a>
+                    <a href="./images/C++certificate.jpg">
+                        <div>Beginning C++ Programming</div>
+                        <img src="./images/C++certificate.jpg" alt="#">
+                    </a>
 
                 </div>
                 <div>
-                    <a href="./images/webDevCertificate.jpg">Web Development<br><img src="./images/webDevCertificate.jpg" alt="#"></a>
+                    <a href="./images/webDevCertificate.jpg">
+                        <div>Web Development</div>
+                        <img src="./images/webDevCertificate.jpg" alt="#">
+                    </a>
 
                 </div>
             </div>
