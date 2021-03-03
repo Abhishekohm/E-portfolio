@@ -3,7 +3,7 @@ const icons = document.querySelector(".icons")
 const sidebar = document.querySelector(".sideBar-responsive")
 let isClick = true
 const about = document.querySelector('.About')
-const aboutBtn = document.querySelector('#about-btn')
+const aboutBtn = document.querySelector('.about-btn')
 
 nameLink.addEventListener('click', () => {
     window.scrollTo({
