@@ -30,7 +30,7 @@ icons.addEventListener('click', (evt) => {
 
 aboutBtn.addEventListener('click', () => {
     window.scrollTo({
-        top: 800,
+        top: 900,
         left: 0,
         behavior: "smooth"
 
