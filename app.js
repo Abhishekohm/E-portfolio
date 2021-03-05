@@ -4,6 +4,7 @@ const sidebar = document.querySelector(".sideBar-responsive")
 let isClick = true
 const about = document.querySelector('.About')
 const aboutBtn = document.querySelector('.about-btn')
+const footerScroll = document.querySelector('.footer-scroll')
 
 nameLink.addEventListener('click', () => {
     window.scrollTo({
@@ -29,6 +30,15 @@ icons.addEventListener('click', (evt) => {
 })
 
 aboutBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 900,
+        left: 0,
+        behavior: "smooth"
+
+    })
+})
+
+footerScroll.addEventListener('click', () => {
     window.scrollTo({
         top: 900,
         left: 0,

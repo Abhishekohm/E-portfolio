@@ -10,6 +10,12 @@ body {
     background-color: white;
 }
 
+button {
+    outline: 0px;
+    height: 30px;
+    width: 80px;
+}
+
 nav h2 span,
 nav h3 span {
     display: inline-block;
@@ -54,7 +60,7 @@ nav div {
     justify-content: center;
     align-items: center;
     background-image: url(./images/background2.jpg);
-    background-size: 100% 100%;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
 
@@ -221,14 +227,6 @@ nav div {
     border-bottom: 2px solid black;
 }
 
-footer {
-    width: 100%;
-    height: 200px;
-    color: white;
-    background-color: #343a40;
-    text-align: center;
-}
-
 .certificates h2 {
     text-align: center;
     font-size: 40px;
@@ -291,7 +289,65 @@ footer {
     left: 0;
 }
 
+footer {
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: #343a40;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+footer div div {
+    display: inline-block;
+}
+
+footer h4 {
+    margin: 20px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+footer ul {
+    padding: 0px;
+}
+
+.footer-scroll {
+    cursor: pointer;
+}
+
+.code {
+    height: 20%;
+    width: 100%;
+    background-color: azure;
+    color: black;
+}
+
 @media(max-width: 800px) {
+    .about div {
+        font-size: 20px;
+        padding: 10px 5px;
+    }
+    .description p:nth-of-type(1) {
+        font-size: 30px;
+    }
+    .description p:nth-of-type(2) {
+        font-size: 25px;
+    }
     .academics-box {
         display: flex;
         flex-direction: column;
@@ -322,6 +378,12 @@ footer {
 }
 
 @media(max-width: 500px) {
+    .description p:nth-of-type(1) {
+        font-size: 25px;
+    }
+    .description p:nth-of-type(2) {
+        font-size: 20px;
+    }
     .logo-container-1,
     .logo-container-2,
     .logo-container-3 {
