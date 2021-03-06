@@ -3,7 +3,7 @@ const icons = document.querySelector(".icons")
 const sidebar = document.querySelector(".sideBar-responsive")
 let isClick = true
 const about = document.querySelector('.About')
-const aboutBtn = document.querySelector('.about-btn')
+const aboutBtn = document.querySelectorAll('.about-btn')
 const footerScroll = document.querySelector('.footer-scroll')
 
 nameLink.addEventListener('click', () => {
@@ -29,18 +29,20 @@ icons.addEventListener('click', (evt) => {
 
 })
 
-aboutBtn.addEventListener('click', () => {
-    window.scrollTo({
-        top: 900,
-        left: 0,
-        behavior: "smooth"
+for (let btn of aboutBtn) {
+    btn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 800,
+            left: 0,
+            behavior: "smooth"
 
+        })
     })
-})
+}
 
 footerScroll.addEventListener('click', () => {
     window.scrollTo({
-        top: 900,
+        top: 750,
         left: 0,
         behavior: "smooth"
 

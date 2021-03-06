@@ -10,6 +10,10 @@ body {
     background-color: white;
 }
 
+span {
+    display: inline-block;
+}
+
 button {
     outline: 0px;
     height: 30px;
@@ -338,9 +342,9 @@ footer ul {
 }
 
 @media(max-width: 800px) {
-    .about div {
-        font-size: 20px;
-        padding: 10px 5px;
+    .About div {
+        font-size: 18px;
+        padding: 20px 10px;
     }
     .description p:nth-of-type(1) {
         font-size: 30px;
