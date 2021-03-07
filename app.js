@@ -5,6 +5,7 @@ let isClick = true
 const about = document.querySelector('.About')
 const aboutBtn = document.querySelectorAll('.about-btn')
 const footerScroll = document.querySelector('.footer-scroll')
+const overlay = document.querySelector('.overlay')
 
 nameLink.addEventListener('click', () => {
     window.scrollTo({
@@ -14,16 +15,26 @@ nameLink.addEventListener('click', () => {
     });
 })
 
+overlay.addEventListener('click', () => {
+    sidebar.classList.remove('sideBar-click');
+    icons.classList.add('fa-align-justify')
+    icons.classList.remove('fa-times')
+    overlay.classList.remove('display')
+    isClick = !isClick;
+})
+
 icons.addEventListener('click', (evt) => {
     if (isClick) {
         sidebar.classList.add('sideBar-click');
         icons.classList.remove('fa-align-justify')
         icons.classList.add('fa-times')
+        overlay.classList.add('display')
         isClick = !isClick;
     } else {
         sidebar.classList.remove('sideBar-click');
         icons.classList.add('fa-align-justify')
         icons.classList.remove('fa-times')
+        overlay.classList.remove('display')
         isClick = !isClick;
     }
 

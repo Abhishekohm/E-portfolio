@@ -124,9 +124,14 @@ nav div {
     font-size: 40px;
 }
 
+.academics-container i {
+    margin: 0 10px;
+}
+
 .academics-box {
     display: flex;
     justify-content: space-around;
+    line-height: 30px
 }
 
 .academics h3 {
@@ -277,11 +282,26 @@ nav div {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     left: -210px;
+    z-index: 15;
 }
 
 .sideBar-responsive a {
     text-decoration: none;
     color: black;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+.display {
+    display: block;
 }
 
 .icons {
@@ -382,6 +402,9 @@ footer ul {
 }
 
 @media(max-width: 500px) {
+    body {
+        width: 100vw;
+    }
     .description p:nth-of-type(1) {
         font-size: 25px;
     }
