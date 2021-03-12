@@ -15,6 +15,7 @@ nameLink.addEventListener('click', () => {
     });
 })
 
+
 overlay.addEventListener('click', () => {
     sidebar.classList.remove('sideBar-click');
     icons.classList.add('fa-align-justify')
