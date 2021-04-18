@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -74,16 +75,16 @@
                 Academics
             </h2>
             <div class="academics-box">
-                <div class="academics">
+                <div class="academics" data-aos="zoom-in" data-aos-offset="200">
                     <h3>
                         Class 10th
                     </h3>
                     <p>
                         <i class="fa fa-circle"></i> I have completed SSC from Yogiraj Shree Krishna Vidyalaya. <br>
-                        <i class="fa fa-circle"></i> In class 10th I stood rank 1 in my school with overall aggergate marks of 90.80%.<br>
+                        <i class="fa fa-circle"></i> In class 10th I stood rank 2 in my school with average marks of 90.80%.<br>
                     </p>
                 </div>
-                <div class="academics">
+                <div class="academics" data-aos="zoom-in" data-aos-offset="200">
                     <h3>
                         Class 12th
                     </h3>
@@ -92,7 +93,7 @@
                         <i class="fa fa-circle"></i>In class 12th I got 77.85% aggregate score.
                     </p>
                 </div>
-                <div class="academics">
+                <div class="academics" data-aos="zoom-in" data-aos-offset="200">
                     <h3>
                         Undergraduate
                     </h3>
@@ -118,7 +119,7 @@
         <section class="projects">
             <h2 class = "headings" >PROJECTS</h2>
             <div class="projects-container">
-                <div>
+                <div data-aos="zoom-in" data-aos-offset="200">
                     <h3 class="project-heading">
                         <a href="https://github.com/Abhishekohm/covidApp">COVID-19 Tracker</a>
                     </h3>
@@ -144,14 +145,14 @@
             </h2>
 
             <div class="certifiactes-container">
-                <div>
+                <div data-aos="zoom-in" data-aos-offset="200">
                     <a href="./images/C++certificate.jpg">
                         <div>Beginning C++ Programming</div>
                         <img src="./images/C++certificate.jpg" alt="#">
                     </a>
 
                 </div>
-                <div>
+                <div data-aos="zoom-in" data-aos-offset="200">
                     <a href="./images/webDevCertificate.jpg">
                         <div>Web Development</div>
                         <img src="./images/webDevCertificate.jpg" alt="#">
@@ -189,6 +190,10 @@
 
 
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+       AOS.init();
+    </script>
 </body>
 
 </html>
