@@ -36,16 +36,16 @@ const Intro = () => {
                 <Container
                     sx={{ padding: "0 !important", textAlign: { xs: "center", md: "start" } }}
                 >
-                    <IconButton href="https://www.facebook.com/people/Abhishek-Gupta/100073291547670/" size="large" className='social-icons' sx={{ backgroundColor: "#ff6600", color: "white", marginRight: "10px", fontSize: "30px" }} className="social-icons" >
+                    <IconButton href="https://www.facebook.com/people/Abhishek-Gupta/100073291547670/" size="large" className='social-icons' sx={{ backgroundColor: "#ff6600", color: "white", marginRight: "10px", fontSize: "30px" }}  >
                         <FacebookIcon fontSize="inherit" />
                     </IconButton>
-                    <IconButton href="https://www.instagram.com/abhishek_ohm/" size="large" className='social-icons' sx={{ backgroundColor: "#ff6600", color: "white", marginRight: "10px", fontSize: "30px" }} className="social-icons" >
+                    <IconButton href="https://www.instagram.com/abhishek_ohm/" size="large" className='social-icons' sx={{ backgroundColor: "#ff6600", color: "white", marginRight: "10px", fontSize: "30px" }}  >
                         <InstagramIcon fontSize="inherit" />
                     </IconButton>
-                    <IconButton href="https://github.com/Abhishekohm" size="large" className='social-icons' sx={{ backgroundColor: "#ff6600", color: "white", marginRight: "10px", fontSize: "30px" }} className="social-icons" >
+                    <IconButton href="https://github.com/Abhishekohm" size="large" className='social-icons' sx={{ backgroundColor: "#ff6600", color: "white", marginRight: "10px", fontSize: "30px" }}  >
                         <GitHubIcon fontSize="inherit" />
                     </IconButton>
-                    <IconButton href="https://www.linkedin.com/in/abhishek-gupta-a165101bb/" size="large" className='social-icons' sx={{ backgroundColor: "#ff6600", color: "white", marginRight: "10px", fontSize: "30px" }} className="social-icons" >
+                    <IconButton href="https://www.linkedin.com/in/abhishek-gupta-a165101bb/" size="large" className='social-icons' sx={{ backgroundColor: "#ff6600", color: "white", marginRight: "10px", fontSize: "30px" }}  >
                         <LinkedInIcon fontSize="inherit" />
                     </IconButton>
                 </Container>
