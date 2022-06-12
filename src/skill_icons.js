@@ -9,7 +9,7 @@ import nodejs from "./assets/nodejs.svg"
 import react from "./assets/react.svg"
 import python from "./assets/python.svg"
 
-export default [
+const icons = [
     {
         title: "Bootstrap",
         img: bootstrap
@@ -51,6 +51,6 @@ export default [
         title: "Python",
         img: python
     },
-
-
 ]
+
+export default icons;

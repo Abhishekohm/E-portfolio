@@ -7,7 +7,7 @@ import git from "./assets/git.svg"
 import github from "./assets/github.svg"
 import vscode from "./assets/vscode.svg"
 
-export default [
+const data = [
     {
         title: 'coudinary',
         img: cloudinary
@@ -41,3 +41,5 @@ export default [
         img: vscode
     },
 ]
+
+export default data;
